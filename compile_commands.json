@@ -1,0 +1,92 @@
+[
+ {
+  "directory": "/home/c0rvax/Code/TC/Philo",
+  "arguments": [
+   "cc",
+   "-Wextra",
+   "-Wall",
+   "-Werror",
+   "-I.",
+   "-c",
+   "main.c",
+   "-o",
+   "main.o"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/home/c0rvax/Code/TC/Philo",
+  "arguments": [
+   "cc",
+   "-Wextra",
+   "-Wall",
+   "-Werror",
+   "-I.",
+   "-c",
+   "init.c",
+   "-o",
+   "init.o"
+  ],
+  "file": "init.c"
+ },
+ {
+  "directory": "/home/c0rvax/Code/TC/Philo",
+  "arguments": [
+   "cc",
+   "-Wextra",
+   "-Wall",
+   "-Werror",
+   "-I.",
+   "-c",
+   "exit_error.c",
+   "-o",
+   "exit_error.o"
+  ],
+  "file": "exit_error.c"
+ },
+ {
+  "directory": "/home/c0rvax/Code/TC/Philo",
+  "arguments": [
+   "cc",
+   "-Wextra",
+   "-Wall",
+   "-Werror",
+   "-I.",
+   "-c",
+   "utils.c",
+   "-o",
+   "utils.o"
+  ],
+  "file": "utils.c"
+ },
+ {
+  "directory": "/home/c0rvax/Code/TC/Philo",
+  "arguments": [
+   "cc",
+   "-Wextra",
+   "-Wall",
+   "-Werror",
+   "-I.",
+   "-c",
+   "thanatos.c",
+   "-o",
+   "thanatos.o"
+  ],
+  "file": "thanatos.c"
+ },
+ {
+  "directory": "/home/c0rvax/Code/TC/Philo",
+  "arguments": [
+   "cc",
+   "-Wextra",
+   "-Wall",
+   "-Werror",
+   "-I.",
+   "-c",
+   "philo.c",
+   "-o",
+   "philo.o"
+  ],
+  "file": "philo.c"
+ }
+]
