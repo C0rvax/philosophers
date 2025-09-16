@@ -49,7 +49,8 @@ To ensure thread safety and accurate logging, several mutexes are used:
 ### Compilation
 A `Makefile` is included for easy compilation.
 ```bash
-make```
+make
+```
 
 ### Execution
 The program takes 4 mandatory arguments and 1 optional argument:
