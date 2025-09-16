@@ -74,23 +74,33 @@ The program takes 4 mandatory arguments and 1 optional argument:
 ```
 This will start a simulation with 5 philosophers, who will die if they don't eat within 800ms. Each meal takes 200ms, and they sleep for 200ms afterward.
 
-## 🎬 Example Output
+### 🎬 Example Output
 
 The output is formatted as `timestamp_in_ms philosopher_id action`. The print mutex ensures each line is printed atomically.
 
 ```
-0 1 is thinking
-0 2 is thinking
-0 3 is thinking
-0 4 is thinking
-0 5 is thinking
-2 2 has taken a fork
-3 2 has taken a fork
-3 2 is eating
-203 2 is sleeping
-204 4 has taken a fork
+0 2 has taken a fork
+0 2 has taken a fork
+0 2 is eating
+0 4 has taken a fork
+0 4 has taken a fork
+0 4 is eating
+200 2 is sleeping
+200 4 is sleeping
+200 1 has taken a fork
+200 1 has taken a fork
+200 1 is eating
+200 3 has taken a fork
+200 3 has taken a fork
+200 3 is eating
+400 2 is thinking
+400 4 is thinking
+400 1 is sleeping
+400 3 is sleeping
+400 5 has taken a fork
+400 5 has taken a fork
+400 5 is eating
 ...
-805 1 died
 ```
 
 ## 💻 Technologies Used
